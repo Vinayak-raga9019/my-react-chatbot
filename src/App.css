@@ -1,0 +1,24 @@
+ /* App.css - Clean Version */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white; /* Clean white background */
+}
+
+.app-container {
+  /* Removes the box, border, and shadow */
+  max-width: 800px; /* Optional: keeps messages from getting too wide on big screens */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the screen */
+  box-sizing: border-box;
+}
+
+/* Ensure the message list takes up all available space */
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}

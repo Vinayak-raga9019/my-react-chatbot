@@ -1,0 +1,26 @@
+ .input-container {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px; /* Pill shape */
+  outline: none;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.input-container button {
+  padding: 10px 25px;
+  border: none;
+  background-color: black; /* Simple black button */
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}

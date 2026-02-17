@@ -1,0 +1,40 @@
+ .message-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px; /* Space between image and text */
+}
+
+/* User Alignment: Right */
+.message-item.user {
+  flex-direction: row-reverse; 
+}
+
+/* 3. AVATAR IMAGE STYLING */
+.avatar-img {
+  width: 50px;       /* Set a fixed size */
+  height: 50px;
+  border-radius: 50%; /* Makes it a perfect circle */
+  object-fit: cover;  /* Prevents the image from stretching */
+  border: 2px solid #ddd; /* Optional: adds a nice border */
+}
+
+/* Robot Bubble (Light Grey) */
+.message-item.robot .bubble {
+  background-color: #f1f0f0; 
+  color: #333;
+  padding: 12px 18px;
+  border-radius: 15px;
+  border-top-left-radius: 2px; /* Little "tail" for the bubble */
+  max-width: 70%;
+}
+
+/* User Bubble (Blue or Grey) */
+.message-item.user .bubble {
+  background-color: #007bff; /* Use Blue for user like your screenshot? Or keep grey */
+  color: white;
+  padding: 12px 18px;
+  border-radius: 15px;
+  border-top-right-radius: 2px;
+  max-width: 70%;
+}
