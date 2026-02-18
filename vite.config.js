@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+ import { defineConfig } from 'vite'
+import react from '@vitejs/react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/my-react-chatbot/', // This MUST match your GitHub repo name
 })
